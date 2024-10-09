@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/fragmentA">
+
+    <!-- Fragment A -->
+    <fragment
+        android:id="@+id/fragmentA"
+        android:name="com.example.navegacionfragmentos.FragmentA"
+        android:label="Fragment A">
+        <action
+            android:id="@+id/action_A_to_B"
+            app:destination="@id/fragmentB" />
+    </fragment>
+
+    <!-- Fragment B -->
+    <fragment
+        android:id="@+id/fragmentB"
+        android:name="com.example.navegacionfragmentos.FragmentB"
+        android:label="Fragment B">
+        <action
+            android:id="@+id/action_B_to_C"
+            app:destination="@id/fragmentC" />
+    </fragment>
+
+    <!-- Fragment C -->
+    <fragment
+        android:id="@+id/fragmentC"
+        android:name="com.example.navegacionfragmentos.FragmentC"
+        android:label="Fragment C">
+        <action
+            android:id="@+id/action_C_to_A"
+            app:destination="@id/fragmentA" />
+    </fragment>
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NavegacionFragmentos</string>
+    <string name="fragment_c">Fragment C</string>
+    <string name="go_back_to_fragment_a">Go back to Fragment A</string>
+    <string name="fragment_b">Fragment B</string>
+    <string name="go_to_fragment_c">Go to Fragment C</string>
+</resources>
